@@ -238,9 +238,6 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <Phone className="h-6 w-6 text-emerald-600 mt-1" />
-                </div>
 
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-emerald-600 mt-1" />
@@ -292,12 +289,7 @@ export default function ContactPage() {
                   Find quick answers to common questions about our services and
                   platform.
                 </p>
-                <Button
-                  variant="outline"
-                  className="border-blue-200 text-blue-700 hover:bg-blue-50"
-                >
-                  View FAQ
-                </Button>
+      
               </CardContent>
             </Card>
           </div>
