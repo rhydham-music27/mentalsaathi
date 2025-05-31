@@ -60,12 +60,7 @@ export default function MentalSaathiLanding() {
             Your mental wellness journey starts here. Find support, resources,
             and a caring community.
           </p>
-          <Button
-            size="lg"
-            className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-          >
-            Join the Waitlist
-          </Button>
+          
         </div>
       </section>
 
@@ -141,7 +136,7 @@ export default function MentalSaathiLanding() {
       </section>
 
       {/* Email Signup */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-16" id="#wait-list-form">
         <div className="max-w-2xl mx-auto text-center">
           <div className="bg-gradient-to-r from-emerald-500 to-blue-500 rounded-2xl p-8 text-white shadow-xl">
             <Mail className="h-12 w-12 mx-auto mb-6 opacity-90" />
@@ -268,15 +263,12 @@ export default function MentalSaathiLanding() {
               <div className="space-y-2 text-sm text-slate-300">
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" />
-                  <span>hello@mentalsaathi.com</span>
+                  <span>rhydham937@gmail.com</span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <Phone className="h-4 w-4" />
-                  <span>+91 98765 43210</span>
-                </div>
+              
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4" />
-                  <span>Mumbai, India</span>
+                  <span>Batala, India</span>
                 </div>
               </div>
             </div>

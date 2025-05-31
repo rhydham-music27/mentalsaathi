@@ -233,20 +233,13 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-emerald-600 mt-1" />
                   <div>
                     <h3 className="font-semibold text-slate-800">Email</h3>
-                    <p className="text-slate-600">hello@mentalsaathi.com</p>
-                    <p className="text-slate-600">support@mentalsaathi.com</p>
+                    <p className="text-slate-600">rhydham937@gmail.com</p>
+               
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <Phone className="h-6 w-6 text-emerald-600 mt-1" />
-                  <div>
-                    <h3 className="font-semibold text-slate-800">Phone</h3>
-                    <p className="text-slate-600">+91 98765 43210</p>
-                    <p className="text-sm text-slate-500">
-                      Mon-Fri, 9 AM - 6 PM IST
-                    </p>
-                  </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
@@ -254,32 +247,12 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-slate-800">Address</h3>
                     <p className="text-slate-600">
-                      Mental Saathi Foundation
-                      <br />
-                      123 Wellness Street
-                      <br />
-                      Bandra West, Mumbai 400050
-                      <br />
-                      Maharashtra, India
+                      MentalSaathi.com
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <Clock className="h-6 w-6 text-emerald-600 mt-1" />
-                  <div>
-                    <h3 className="font-semibold text-slate-800">
-                      Office Hours
-                    </h3>
-                    <p className="text-slate-600">
-                      Monday - Friday: 9:00 AM - 6:00 PM
-                    </p>
-                    <p className="text-slate-600">
-                      Saturday: 10:00 AM - 4:00 PM
-                    </p>
-                    <p className="text-slate-600">Sunday: Closed</p>
-                  </div>
-                </div>
+        
               </CardContent>
             </Card>
 
