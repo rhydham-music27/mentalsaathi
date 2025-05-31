@@ -8,7 +8,7 @@ import {
   MessageCircle,
   BookOpen,
   Mail,
-  Phone,
+
   MapPin,
   Facebook,
   Twitter,

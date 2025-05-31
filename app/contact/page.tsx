@@ -15,7 +15,7 @@ import {
   Mail,
   Phone,
   MapPin,
-  Clock,
+
   MessageCircle,
   HelpCircle,
   Users,
