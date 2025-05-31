@@ -235,7 +235,7 @@ export default function GetInTouchPage() {
 
                   <div>
                     <label className="block text-sm font-medium text-slate-700 mb-2">
-                      I'm interested in collaborating as a *
+                      I&apos;m interested in collaborating as a *
                     </label>
                     <Select onValueChange={setRole} value={role}>
                       <SelectTrigger className="border-slate-200 focus:border-emerald-500">
@@ -330,7 +330,7 @@ export default function GetInTouchPage() {
                   Have Questions?
                 </h3>
                 <p className="text-slate-600 mb-4">
-                  We're here to help! Reach out if you have any questions about
+                  We&apos;re here to help! Reach out if you have any questions about
                   collaboration opportunities.
                 </p>
                 <Button

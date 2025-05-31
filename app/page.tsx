@@ -206,7 +206,7 @@ export default function MentalSaathiLanding() {
           </h2>
           <p className="text-lg text-slate-600 mb-8">
             Are you a therapist, psychology student, or volunteer passionate
-            about mental health? We'd love to collaborate with you.
+            about mental health? We&apos;d love to collaborate with you.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">

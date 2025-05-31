@@ -65,8 +65,8 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            We're here to listen and help. Reach out to us anytime - your mental
-            wellness matters to us.
+            We&apos;re here to listen and help. Reach out to us anytime - your
+            mental wellness matters to us.
           </p>
         </div>
       </section>
@@ -109,7 +109,7 @@ export default function ContactPage() {
 
                     if (res.success === true) {
                       toast.success(res.message);
-                      router.push('/')
+                      router.push("/");
                     }
                   }}
                   className="space-y-6"
@@ -291,7 +291,7 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold">Need Immediate Help?</h3>
                 </div>
                 <p className="mb-4 opacity-90">
-                  If you're experiencing a mental health crisis, please reach
+                  If youre experiencing a mental health crisis, please reach
                   out for immediate support.
                 </p>
                 <div className="space-y-2 text-sm">
