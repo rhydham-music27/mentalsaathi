@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Andar ki baat, ab Saathi ke saath.",
    icons: {
     icon: "/favicon.ico", // or "/favicon.svg"
-    apple: "/apple-touch-icon.png",
+    // apple: "/apple-touch-icon.png"
   },
 };
 
