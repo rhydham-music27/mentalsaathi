@@ -13,7 +13,7 @@ import {
 import {
   Heart,
   Mail,
-  Phone,
+  // Phone,
   MapPin,
 
   MessageCircle,
