@@ -8,7 +8,6 @@ import {
   MessageCircle,
   BookOpen,
   Mail,
-
   MapPin,
   Facebook,
   Twitter,
@@ -60,7 +59,6 @@ export default function MentalSaathiLanding() {
             Your mental wellness journey starts here. Find support, resources,
             and a caring community.
           </p>
-          
         </div>
       </section>
 
@@ -152,7 +150,7 @@ export default function MentalSaathiLanding() {
                 event.preventDefault();
 
                 const response = await fetch(
-                  "https://mentalsaathi-backend.onrender.com/forms/join-waitlist",
+                  "https://mentalsaathi-express-backend.onrender.com/api/v1/interaction/waitinglist",
 
                   {
                     method: "post",
@@ -166,7 +164,7 @@ export default function MentalSaathiLanding() {
                 );
                 console.log("clicked");
                 const res = await response.json();
-               
+
                 if (res.success === true) {
                   toast.success(res.message);
                 }
@@ -265,7 +263,7 @@ export default function MentalSaathiLanding() {
                   <Mail className="h-4 w-4" />
                   <span>rhydham937@gmail.com</span>
                 </div>
-              
+
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4" />
                   <span>Batala, India</span>

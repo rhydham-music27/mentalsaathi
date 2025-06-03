@@ -87,7 +87,7 @@ export default function ContactPage() {
                   onSubmit={async (event) => {
                     event.preventDefault();
                     const response = await fetch(
-                      "https://mentalsaathi-backend.onrender.com/forms/contact",
+                      "https://mentalsaathi-express-backend.onrender.com/api/v1/interaction/contactus",
 
                       {
                         method: "post",

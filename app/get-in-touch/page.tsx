@@ -145,7 +145,7 @@ export default function GetInTouchPage() {
                   onSubmit={async (evemt) => {
                     evemt.preventDefault();
                     const response = await fetch(
-                      "https://mentalsaathi-backend.onrender.com/forms/getintouch",
+                      "https://mentalsaathi-express-backend.onrender.com/api/v1/interaction/getintouch",
 
                       {
                         method: "post",
