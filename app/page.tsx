@@ -167,6 +167,8 @@ export default function MentalSaathiLanding() {
 
                 if (res.success === true) {
                   toast.success(res.message);
+                } else {
+                  toast.error(res.message);
                 }
               }}
               className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto"
