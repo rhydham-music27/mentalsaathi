@@ -154,9 +154,8 @@ export default function GetInTouchPage() {
                         },
                         body: JSON.stringify({
                           email: email,
-                          first_name: first_name,
-                          last_name: last_name,
-                          phone_number: phone_number,
+                          name: `${first_name} ${last_name}`,
+                          phone: phone_number,
                           role: role,
                           institution: ngo,
                         }),
@@ -168,6 +167,8 @@ export default function GetInTouchPage() {
                     if (res.success === true) {
                       toast.success(res.message);
                       router.push("/");
+                    } else {
+                      toast.error(res.message);
                     }
                   }}
                   className="space-y-6"
@@ -330,8 +331,8 @@ export default function GetInTouchPage() {
                   Have Questions?
                 </h3>
                 <p className="text-slate-600 mb-4">
-                  We&apos;re here to help! Reach out if you have any questions about
-                  collaboration opportunities.
+                  We&apos;re here to help! Reach out if you have any questions
+                  about collaboration opportunities.
                 </p>
                 <Button
                   onSubmit={() => {

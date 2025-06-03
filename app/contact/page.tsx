@@ -15,7 +15,6 @@ import {
   Mail,
   // Phone,
   MapPin,
-
   MessageCircle,
   HelpCircle,
   Users,
@@ -96,9 +95,8 @@ export default function ContactPage() {
                         },
                         body: JSON.stringify({
                           email: email,
-                          first_name: first_name,
-                          last_name: last_name,
-                          phone_number: phone_number,
+                          name: `${first_name} ${last_name}`,
+                          phone: phone_number,
                           subject: subject,
                           message: message,
                         }),
@@ -110,6 +108,8 @@ export default function ContactPage() {
                     if (res.success === true) {
                       toast.success(res.message);
                       router.push("/");
+                    } else {
+                      toast.error(res.message);
                     }
                   }}
                   className="space-y-6"
@@ -234,22 +234,16 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-slate-800">Email</h3>
                     <p className="text-slate-600">rhydham937@gmail.com</p>
-               
                   </div>
                 </div>
-
 
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-emerald-600 mt-1" />
                   <div>
                     <h3 className="font-semibold text-slate-800">Address</h3>
-                    <p className="text-slate-600">
-                      MentalSaathi.com
-                    </p>
+                    <p className="text-slate-600">MentalSaathi.com</p>
                   </div>
                 </div>
-
-        
               </CardContent>
             </Card>
 
@@ -261,8 +255,8 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold">Need Immediate Help?</h3>
                 </div>
                 <p className="mb-4 opacity-90">
-                  If youre experiencing a mental health crisis, please reach
-                  out for immediate support.
+                  If youre experiencing a mental health crisis, please reach out
+                  for immediate support.
                 </p>
                 <div className="space-y-2 text-sm">
                   <p>
@@ -289,7 +283,6 @@ export default function ContactPage() {
                   Find quick answers to common questions about our services and
                   platform.
                 </p>
-      
               </CardContent>
             </Card>
           </div>
